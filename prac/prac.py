@@ -1,8 +1,6 @@
-n = int(input())
 
-ans = 0
+a = 110
 
-for i in range(1, n+1):
-    ans += (n // i) * i
+l = list(map(int, str(a)))
 
-print(ans)
+print(l)
