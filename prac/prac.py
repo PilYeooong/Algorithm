@@ -1,6 +1,4 @@
+a = [1, 1]
+b = [2, 2]
 
-a = 110
-
-l = list(map(int, str(a)))
-
-print(l)
+print(a+b)
